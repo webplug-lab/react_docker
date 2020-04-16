@@ -1,0 +1,7 @@
+FROM node:lts-alpine
+WORKDIR /app
+
+# docker build -t reactapp -f Dockerfile-creare-app .
+# docker run -itd -v ${PWD}:/app --name reactWeb reactapp
+# docker exec -it reactWeb npx create-react-app my-app
+# sudo chown -R $USER:$(id -gn $USER) ./*
